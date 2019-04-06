@@ -1,9 +1,9 @@
 # About
 Recently due to some bad actors Discord ended up blocking the entire User-Agent of an application I use.
 
-Unfortunately this application doesn't allow you to modify the User-Agent header either so as a result I've thrown this sample config together to show what can be done to work around this issue.
+Unfortunately this application doesn't allow you to modify the User-Agent header either so as a result I've thrown this sample nginx config together to show what can be done to work around this issue.
 
-The script itself has been designed with https in mind and does work when filled out appropriately. In theory there's nothing to stop a http-based version from working but hey, encrypt the internet and all that!
+The nginx script itself has been designed with https in mind and does work when filled out appropriately. In theory there's nothing to stop a http-based version from working but hey, encrypt the internet and all that!
 
 ## Usage
 Typically your average discord api usage would look like 
